@@ -1,360 +1,467 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>FreshTrust World News</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/animate.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/font.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/li-scroller.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/slick.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/jquery.fancybox.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/theme.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-<link rel="shortcut icon" href="../images/icon.png">
-<!--[if lt IE 9]>
+
+  <head>
+    <title>FreshTrust World News</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/font.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/li-scroller.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="shortcut icon" href="../images/icon.png">
+    <!--[if lt IE 9]>
 <script src="../assets/js/html5shiv.min.js"></script>
 <script src="../assets/js/respond.min.js"></script>
 <![endif]-->
-</head>
-<body>
-<div id="preloader">
-  <div id="status">&nbsp;</div>
-</div>
-<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
-<div class="container">
-  <header id="header">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12">
-        <div class="header_top">
-          <div class="header_top_left">
-            <ul class="top_nav">
-              <li><a href="../">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="../contact">Contact</a></li>
-            </ul>
-          </div>
-          <div class="header_top_right">
-            <p>Sunday, December 06, 2020</p>
-            <script>d=new Date,document.currentScript.previousElementSibling.innerHTML=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"][d.getDay()]+", "+["January","February","March","April","May","June","July","August","September","October","November","December"][d.getMonth()]+" "+(d.getDate().toString().length<2?"0":"")+d.getDate()+", "+d.getFullYear();</script>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-12 col-md-12 col-sm-12">
-        <div class="header_bottom">
-          <div class="logo_area"><a href="../" class="logo"><img src="../images/logo.png" alt=""></a></div>
-          <div class="add_banner"><a href="https://screening.mhanational.org/content/what-mental-illness-do-i-have/"><img src="../images/add_banner.png" alt=""></a></div>
-        </div>
-      </div>
+  </head>
+
+  <body>
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
     </div>
-  </header>
-  <section id="navArea">
-    <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav main_nav">
-          <li class="active"><a href="../"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
-          <li><a href="#">Politics</a></li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mobile</a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Android</a></li>
-              <li><a href="#">Samsung</a></li>
-              <li><a href="#">Nokia</a></li>
-              <li><a href="#">Walton Mobile</a></li>
-              <li><a href="#">Sympony</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Laptops</a></li>
-          <li><a href="#">Tablets</a></li>
-          <li><a href="../contact">Contact Us</a></li>
-          <!-- <li><a href="404.html">404 Page</a></li> -->
-        </ul>
-      </div>
-    </nav>
-  </section>
-  <section id="newsSection">
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <div class="latest_newsarea"> <span>Latest News</span>
-          <ul id="ticker01" class="newsticker">
-            <li><a href="./jokerinoffice"><img src="https://images.unsplash.com/photo-1568417854236-4a8c5043d34e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80" alt="">Former FDA Scientist Explains Why Joker Is In Office</a></li>
-            <li><a href="./sciencefood"><img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">Scientists say cutting out these 3 things can decrease your risk of death</a></li>
-            <li><a href="./kapkawifepissed"><img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">Ólöf Kapka Says Wife Is 'Pissed' at Whoever Leaked Her Texts</a></li>
-            <li><a href="./tattooarrested"><img src="https://images.unsplash.com/photo-1588398068487-cd783264b8d5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">Woman With Hostile Tattoo Arrested for 37th Time</a></li>
-            <li><a href="./boughtpalace"><img src="https://images.unsplash.com/photo-1556821862-33ec0be5c2c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="">How one man BOUGHT Buckingham Palace</a></li>
-            <li><a href="./insanejumpers"><img src="https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80" alt="">Insane Man Buys Jumpers</a></li>
-            <li><a href="./teapartykoala"><img src="https://images.unsplash.com/photo-1578840582652-c0fa6b20ca7a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80" alt="">Man Found Having Tea Party With Koala Again</a></li>
-            <li><a href="./amongus"><img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">'Among Us' breaks world record for being cringe</a></li>
-            <li><a href="./nazieverywhere"><img src="https://images.unsplash.com/photo-1599779462059-545738f600fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">OMG! NAZIS EVERYWHERE!</a></li>
-            <li><a href="./monkeyphoto"><img src="../images/monke-tomato.png" alt="">Viral Photo of Monkey was actually PhotoShopped</a></li>
-            <li><a href="./mcnuggets"><img src="https://images.unsplash.com/photo-1606913084605-1064d2aa86b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">Everyone Is Doing 6 McNuggets for 99p</a></li>
-            <li><a href="./nasalarge"><img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" alt="">NASA reports largest object discovered since Jupiter</a></li>
-            <li><a href="./pissdisease"><img src="https://images.unsplash.com/photo-1569386122081-c0434f8864ca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="">Cure for Piss Disease found!</a></li>
-          </ul>
-          <div class="social_area">
-            <ul class="social_nav">
-              <li class="facebook"><a href="#"></a></li>
-              <li class="twitter"><a href="#"></a></li>
-              <li class="flickr"><a href="#"></a></li>
-              <li class="pinterest"><a href="#"></a></li>
-              <li class="googleplus"><a href="#"></a></li>
-              <li class="vimeo"><a href="#"></a></li>
-              <li class="youtube"><a href="#"></a></li>
-              <li class="mail"><a href="#"></a></li>
-            </ul>
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+    <div class="container">
+      <header id="header">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="header_top">
+              <div class="header_top_left">
+                <ul class="top_nav">
+                  <li><a href="../">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="../contact">Contact</a></li>
+                </ul>
+              </div>
+              <div class="header_top_right">
+                <p>Sunday, December 06, 2020</p>
+                <script>d = new Date, document.currentScript.previousElementSibling.innerHTML = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][d.getDay()] + ", " + ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][d.getMonth()] + " " + (d.getDate().toString().length < 2 ? "0" : "") + d.getDate() + ", " + d.getFullYear();</script>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="contentSection">
-    <div class="row">
-      <div class="col-lg-8 col-md-8 col-sm-8">
-        <div class="left_content">
-          <div class="single_page">
-            <ol class="breadcrumb">
-              <li><a href="../">Home</a></li>
-              <li><a href="#">Technology</a></li>
-              <li class="active">Dieting Tips</li>
-            </ol>
-            <h1>Scientists say cutting out these 3 things can decrease your risk of death</h1>
-            <div class="post_commentbox"> <a href="#"><i class="fa fa-user"></i>Dr Willy Nuttle</a> <span><i class="fa fa-calendar"></i>{TIME_UPLOADED}</span> <a href="#"><i class="fa fa-tags"></i>Dieting Tips</a> </div>
-            <div class="single_page_content"> <img class="img-center" src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
-              <p>
-                So do you want to have a greater chance of living in real life and existence?
-                Just listen to this Food Science Doctor with a real <s>doctorates</s> degree
-              </p>
-              <blockquote>
-                Simply not consuming cyanide, arsenic, and magic potions can extend your life by up to 20 years
-              </blockquote>
-              <p>
-                Says Foodologist Dr Willy Nuttle from Food Science Lab 
-              </p>
-            </div>
-            <div class="social_link">
-              <ul class="sociallink_nav">
-                <li><a href="https://facebook.com"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://screening.mhanational.org/content/what-mental-illness-do-i-have/"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="https://au.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://pinterest.com"><i class="fa fa-pinterest"></i></a></li>
-              </ul>
-            </div>
-            <div class="related_post">
-              <h2>Related Post <i class="fa fa-thumbs-o-up"></i></h2>
-              <ul class="spost_nav wow fadeInDown animated">
-                <li>
-                  <div class="media wow fadeInDown"> <a href="./monkeyphoto" class="media-left"> <img alt="" src="../images/monke-tomato.png"> </a>
-                    <div class="media-body"> <a href="./monkeyphoto" class="catg_title">Viral Photo of Monkey was actually PhotoShopped </a> </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="media wow fadeInDown"> <a href="./tattooarrested" class="media-left"> <img alt="" src="https://images.unsplash.com/photo-1588398068487-cd783264b8d5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"> </a>
-                    <div class="media-body"> <a href="./tattooarrested" class="catg_title">Woman With Hostile Tattoo Arrested for 37th Time </a> </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="media wow fadeInDown"> <a href="boughtpalace" class="media-left"> <img alt="" src="https://images.unsplash.com/photo-1556821862-33ec0be5c2c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80"> </a>
-                    <div class="media-body"> <a href="boughtpalace" class="catg_title"> How one man BOUGHT Buckingham Palace</a> </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="media wow fadeInDown"> <a href="nazieverywhere" class="media-left"> <img alt="" src="https://images.unsplash.com/photo-1599779462059-545738f600fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"> </a>
-                    <div class="media-body"> <a href="nazieverywhere" class="catg_title"> OMG! NAZIS EVERYWHERE!</a> </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="media wow fadeInDown"> <a href="kapkawifepissed" class="media-left"> <img alt="" src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"> </a>
-                    <div class="media-body"> <a href="kapkawifepissed" class="catg_title"> Ólöf Kapka Says Wife Is 'Pissed' at Whoever Leaked Her Texts</a> </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="media wow fadeInDown"> <a href="./teapartykoala" class="media-left"> <img alt="" src="https://images.unsplash.com/photo-1578840582652-c0fa6b20ca7a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80"> </a>
-                    <div class="media-body"> <a href="./teapartykoala" class="catg_title">Man Found Having Tea Party With Koala Again </a> </div>
-                  </div>
-                </li>
-              </ul>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="header_bottom">
+              <div class="logo_area"><a href="../" class="logo"><img src="../images/logo.png" alt=""></a></div>
+              <div class="add_banner"><a
+                  href="https://screening.mhanational.org/content/what-mental-illness-do-i-have/"><img
+                    src="../images/add_banner.png" alt=""></a></div>
             </div>
           </div>
         </div>
-      </div>
-      <nav class="nav-slit"> <a class="prev" href="#"> <span class="icon-wrap"><i class="fa fa-angle-left"></i></span>
-        <div>
-          <h3>Problem?</h3>
-          <img src="../images/troll.png" alt="A handsome fellow"/> </div>
-        </a> <a class="next" href="#"> <span class="icon-wrap"><i class="fa fa-angle-right"></i></span>
-        <div>
-          <h3>Problem?</h3>
-          <img src="../images/troll.png" alt="A handsome fellow"/> </div>
-        </a> </nav>
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <aside class="right_content">
-          <div class="single_sidebar">
-            <h2><span>Popular Post</span></h2>
-            <ul class="spost_nav">
-              <li>
-                <div class="media wow fadeInDown"> <a href="./teapartykoala" class="media-left"> <img alt="" src="https://images.unsplash.com/photo-1578840582652-c0fa6b20ca7a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80"> </a>
-                  <div class="media-body"> <a href="./teapartykoala" class="catg_title">Man Found Having Tea Party With Koala Again </a> </div>
-                </div>
+      </header>
+      <section id="navArea">
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span
+                class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav main_nav">
+              <li class="active"><a href="../"><span class="fa fa-home desktop-home"></span><span
+                    class="mobile-show">Home</span></a></li>
+              <li><a href="#">Politics</a></li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                  aria-expanded="false">Mobile</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Android</a></li>
+                  <li><a href="#">Samsung</a></li>
+                  <li><a href="#">Nokia</a></li>
+                  <li><a href="#">Walton Mobile</a></li>
+                  <li><a href="#">Sympony</a></li>
+                </ul>
               </li>
-              <li>
-                <div class="media wow fadeInDown"> <a href="kapkawifepissed" class="media-left"> <img alt="" src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"> </a>
-                  <div class="media-body"> <a href="kapkawifepissed" class="catg_title"> Ólöf Kapka Says Wife Is 'Pissed' at Whoever Leaked Her Texts</a> </div>
-                </div>
-              </li>
-              <li>
-                <div class="media wow fadeInDown"> <a href="./monkeyphoto" class="media-left"> <img alt="" src="../images/monke-tomato.png"> </a>
-                  <div class="media-body"> <a href="./monkeyphoto" class="catg_title">Viral Photo of Monkey was actually PhotoShopped </a> </div>
-                </div>
-              </li>
-              <li>
-                <div class="media wow fadeInDown"> <a href="boughtpalace" class="media-left"> <img alt="" src="https://images.unsplash.com/photo-1556821862-33ec0be5c2c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80"> </a>
-                  <div class="media-body"> <a href="boughtpalace" class="catg_title"> How one man BOUGHT Buckingham Palace</a> </div>
-                </div>
-              </li>
+              <li><a href="#">Laptops</a></li>
+              <li><a href="#">Tablets</a></li>
+              <li><a href="../contact">Contact Us</a></li>
+              <!-- <li><a href="404.html">404 Page</a></li> -->
             </ul>
           </div>
-          <div class="single_sidebar">
-            <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation" class="active"><a href="#category" aria-controls="home" role="tab" data-toggle="tab">Category</a></li>
-              <li role="presentation"><a href="#video" aria-controls="profile" role="tab" data-toggle="tab">Video</a></li>
-              <li role="presentation"><a href="#comments" aria-controls="messages" role="tab" data-toggle="tab">Comments</a></li>
-            </ul>
-            <div class="tab-content">
-              <div role="tabpanel" class="tab-pane active" id="category">
+        </nav>
+      </section>
+      <section id="newsSection">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="latest_newsarea"> <span>Latest News</span>
+              <ul id="ticker01" class="newsticker">
+                <li><a href="./jokerinoffice"><img
+                      src="https://images.unsplash.com/photo-1568417854236-4a8c5043d34e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80"
+                      alt="">Former FDA Scientist Explains Why Joker Is In Office</a></li>
+                <li><a href="./sciencefood"><img
+                      src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                      alt="">Scientists say cutting out these 3 things can decrease your risk of death</a></li>
+                <li><a href="./kapkawifepissed"><img
+                      src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                      alt="">Ólöf Kapka Says Wife Is 'Pissed' at Whoever Leaked Her Texts</a></li>
+                <li><a href="./tattooarrested"><img
+                      src="https://images.unsplash.com/photo-1588398068487-cd783264b8d5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                      alt="">Woman With Hostile Tattoo Arrested for 37th Time</a></li>
+                <li><a href="./boughtpalace"><img
+                      src="https://images.unsplash.com/photo-1556821862-33ec0be5c2c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80"
+                      alt="">How one man BOUGHT Buckingham Palace</a></li>
+                <li><a href="./insanejumpers"><img
+                      src="https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80"
+                      alt="">Insane Man Buys Jumpers</a></li>
+                <li><a href="./teapartykoala"><img
+                      src="https://images.unsplash.com/photo-1578840582652-c0fa6b20ca7a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80"
+                      alt="">Man Found Having Tea Party With Koala Again</a></li>
+                <li><a href="./amongus"><img
+                      src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                      alt="">'Among Us' breaks world record for being cringe</a></li>
+                <li><a href="./nazieverywhere"><img
+                      src="https://images.unsplash.com/photo-1599779462059-545738f600fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                      alt="">OMG! NAZIS EVERYWHERE!</a></li>
+                <li><a href="./monkeyphoto"><img src="../images/monke-tomato.png" alt="">Viral Photo of Monkey was
+                    actually PhotoShopped</a></li>
+                <li><a href="./mcnuggets"><img
+                      src="https://images.unsplash.com/photo-1606913084605-1064d2aa86b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                      alt="">Everyone Is Doing 6 McNuggets for 99p</a></li>
+                <li><a href="./nasalarge"><img
+                      src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
+                      alt="">NASA reports largest object discovered since Jupiter</a></li>
+                <li><a href="./pissdisease"><img
+                      src="https://images.unsplash.com/photo-1569386122081-c0434f8864ca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+                      alt="">Cure for Piss Disease found!</a></li><li><a href="./news/catoven"> <img
+                            src="https://images.unsplash.com/photo-1517330218601-cd55b21a35af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80"
+                            alt="">How many cats can one fit in an oven?</a></li>
+                      <li><a href="./news/baby"> <img
+                            src="https://as2.ftcdn.net/jpg/02/59/68/53/220_F_259685304_GU2G9fZ4qWXiWgJbcOrlagnJmTBVQ32X.jpg" alt="">I HATE my
+                          Baby</a></li>
+              </ul>
+              <div class="social_area">
+                <ul class="social_nav">
+                  <li class="facebook"><a href="#"></a></li>
+                  <li class="twitter"><a href="#"></a></li>
+                  <li class="flickr"><a href="#"></a></li>
+                  <li class="pinterest"><a href="#"></a></li>
+                  <li class="googleplus"><a href="#"></a></li>
+                  <li class="vimeo"><a href="#"></a></li>
+                  <li class="youtube"><a href="#"></a></li>
+                  <li class="mail"><a href="#"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contentSection">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-8">
+            <div class="left_content">
+              <div class="single_page">
+                <ol class="breadcrumb">
+                  <li><a href="../">Home</a></li>
+                  <li><a href="#">Technology</a></li>
+                  <li class="active">Dieting Tips</li>
+                </ol>
+                <h1>Scientists say cutting out these 3 things can decrease your risk of death</h1>
+                <div class="post_commentbox"> <a href="#"><i class="fa fa-user"></i>Dr Willy Nuttle</a> <span><i
+                      class="fa fa-calendar"></i>{TIME_UPLOADED}</span> <a href="#"><i class="fa fa-tags"></i>Dieting
+                    Tips</a> </div>
+                <div class="single_page_content"> <img class="img-center"
+                    src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                    alt="">
+                  <p>
+                    So do you want to have a greater chance of living in real life and existence?
+                    Just listen to this Food Science Doctor with a real <s>doctorates</s> degree
+                  </p>
+                  <blockquote>
+                    Simply not consuming cyanide, arsenic, and magic potions can extend your life by up to 20 years
+                  </blockquote>
+                  <p>
+                    Says Foodologist Dr Willy Nuttle from Food Science Lab
+                  </p>
+                </div>
+                <div class="social_link">
+                  <ul class="sociallink_nav">
+                    <li><a href="https://facebook.com"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://screening.mhanational.org/content/what-mental-illness-do-i-have/"><i
+                          class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://au.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                  </ul>
+                </div>
+                <div class="related_post">
+                  <h2>Related Post <i class="fa fa-thumbs-o-up"></i></h2>
+                  <ul class="spost_nav wow fadeInDown animated">
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="./monkeyphoto" class="media-left"> <img alt=""
+                            src="../images/monke-tomato.png"> </a>
+                        <div class="media-body"> <a href="./monkeyphoto" class="catg_title">Viral Photo of Monkey was
+                            actually PhotoShopped </a> </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="./tattooarrested" class="media-left"> <img alt=""
+                            src="https://images.unsplash.com/photo-1588398068487-cd783264b8d5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                        </a>
+                        <div class="media-body"> <a href="./tattooarrested" class="catg_title">Woman With Hostile Tattoo
+                            Arrested for 37th Time </a> </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="boughtpalace" class="media-left"> <img alt=""
+                            src="https://images.unsplash.com/photo-1556821862-33ec0be5c2c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80">
+                        </a>
+                        <div class="media-body"> <a href="boughtpalace" class="catg_title"> How one man BOUGHT
+                            Buckingham Palace</a> </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="nazieverywhere" class="media-left"> <img alt=""
+                            src="https://images.unsplash.com/photo-1599779462059-545738f600fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                        </a>
+                        <div class="media-body"> <a href="nazieverywhere" class="catg_title"> OMG! NAZIS EVERYWHERE!</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="kapkawifepissed" class="media-left"> <img alt=""
+                            src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                        </a>
+                        <div class="media-body"> <a href="kapkawifepissed" class="catg_title"> Ólöf Kapka Says Wife Is
+                            'Pissed' at Whoever Leaked Her Texts</a> </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="./teapartykoala" class="media-left"> <img alt=""
+                            src="https://images.unsplash.com/photo-1578840582652-c0fa6b20ca7a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80">
+                        </a>
+                        <div class="media-body"> <a href="./teapartykoala" class="catg_title">Man Found Having Tea Party
+                            With Koala Again </a> </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="baby" class="media-left"> <img alt=""
+                            src="https://images.unsplash.com/photo-1517330218601-cd55b21a35af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80">
+                        </a>
+                        <div class="media-body"> <a href="baby" class="catg_title">How many cats can one fit in an
+                            oven?</a> </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown"> <a href="baby" class="media-left"> <img alt=""
+                            src="https://as2.ftcdn.net/jpg/02/59/68/53/220_F_259685304_GU2G9fZ4qWXiWgJbcOrlagnJmTBVQ32X.jpg">
+                        </a>
+                        <div class="media-body"> <a href="baby" class="catg_title">I HATE my Baby</a> </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav class="nav-slit"> <a class="prev" href="#"> <span class="icon-wrap"><i
+                  class="fa fa-angle-left"></i></span>
+              <div>
+                <h3>Problem?</h3>
+                <img src="../images/troll.png" alt="A handsome fellow" />
+              </div>
+            </a> <a class="next" href="#"> <span class="icon-wrap"><i class="fa fa-angle-right"></i></span>
+              <div>
+                <h3>Problem?</h3>
+                <img src="../images/troll.png" alt="A handsome fellow" />
+              </div>
+            </a> </nav>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <aside class="right_content">
+              <div class="single_sidebar">
+                <h2><span>Popular Post</span></h2>
+                <ul class="spost_nav">
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="./teapartykoala" class="media-left"> <img alt=""
+                          src="https://images.unsplash.com/photo-1578840582652-c0fa6b20ca7a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80">
+                      </a>
+                      <div class="media-body"> <a href="./teapartykoala" class="catg_title">Man Found Having Tea Party
+                          With Koala Again </a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="kapkawifepissed" class="media-left"> <img alt=""
+                          src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                      </a>
+                      <div class="media-body"> <a href="kapkawifepissed" class="catg_title"> Ólöf Kapka Says Wife Is
+                          'Pissed' at Whoever Leaked Her Texts</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="./monkeyphoto" class="media-left"> <img alt=""
+                          src="../images/monke-tomato.png"> </a>
+                      <div class="media-body"> <a href="./monkeyphoto" class="catg_title">Viral Photo of Monkey was
+                          actually PhotoShopped </a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="boughtpalace" class="media-left"> <img alt=""
+                          src="https://images.unsplash.com/photo-1556821862-33ec0be5c2c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80">
+                      </a>
+                      <div class="media-body"> <a href="boughtpalace" class="catg_title"> How one man BOUGHT Buckingham
+                          Palace</a> </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="single_sidebar">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a href="#category" aria-controls="home" role="tab"
+                      data-toggle="tab">Category</a></li>
+                  <li role="presentation"><a href="#video" aria-controls="profile" role="tab"
+                      data-toggle="tab">Video</a></li>
+                  <li role="presentation"><a href="#comments" aria-controls="messages" role="tab"
+                      data-toggle="tab">Comments</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="category">
+                    <ul>
+                      <li class="cat-item"><a href="#">Sports</a></li>
+                      <li class="cat-item"><a href="#">Fashion</a></li>
+                      <li class="cat-item"><a href="#">Business</a></li>
+                      <li class="cat-item"><a href="#">Technology</a></li>
+                      <li class="cat-item"><a href="#">Games</a></li>
+                      <li class="cat-item"><a href="#">Life &amp; Style</a></li>
+                      <li class="cat-item"><a href="#">Photography</a></li>
+                    </ul>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="video">
+                    <div class="vide_area">
+                      <iframe width="100%" height="250"
+                        src="http://www.youtube.com/embed/-oo_F2s9luo?feature=player_detailpage" frameborder="0"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="comments">
+                    <ul class="spost_nav" style="color:#666; letter-spacing:0.5px;">
+                      <li>
+                        <div class="media">
+                          <h3> Blond.Sell.9 </h3>
+                          <h4> I think that it is rather funny and awesome! </h4>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media">
+                          <h3> Heavy_Place_7 </h3>
+                          <h4> 😍😍🥰LOVE This!!! 😘OMG! </h4>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media">
+                          <h3> Jaded_Combination_8 </h3>
+                          <h4> ok. this is a little bit cringe if you ask me... im not a big fan </h4>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media">
+                          <h3> DefenselessWhite. </h3>
+                          <h4> YOOOO WHAT S UP EVEYR Y ONE HELLOOW! </h4>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="single_sidebar wow fadeInDown">
+                <h2><span>Sponsor</span></h2>
+                <a class="sideAdd" href="https://screening.mhanational.org/content/what-mental-illness-do-i-have/"><img
+                    src="../images/add_square.png" alt=""></a>
+              </div>
+              <div class="single_sidebar wow fadeInDown">
+                <h2><span>Category Archive</span></h2>
+                <select class="catgArchive">
+                  <option>Select Category</option>
+                  <option>Life styles</option>
+                  <option>Sports</option>
+                  <option>Technology</option>
+                  <option>Treads</option>
+                </select>
+              </div>
+              <div class="single_sidebar wow fadeInDown">
+                <h2><span>Links</span></h2>
                 <ul>
-                  <li class="cat-item"><a href="#">Sports</a></li>
-                  <li class="cat-item"><a href="#">Fashion</a></li>
-                  <li class="cat-item"><a href="#">Business</a></li>
-                  <li class="cat-item"><a href="#">Technology</a></li>
-                  <li class="cat-item"><a href="#">Games</a></li>
-                  <li class="cat-item"><a href="#">Life &amp; Style</a></li>
-                  <li class="cat-item"><a href="#">Photography</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Rss Feed</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Life &amp; Style</a></li>
                 </ul>
               </div>
-              <div role="tabpanel" class="tab-pane" id="video">
-                <div class="vide_area">
-                  <iframe width="100%" height="250" src="http://www.youtube.com/embed/-oo_F2s9luo?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-                </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="footer_top">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="footer_widget wow fadeInLeftBig">
+                <h2>DISCLAIMER</h2>
+                <p>
+                  This is a parody website. Do not take this as fact.
+                  <hr>
+                  This website is not copyrighted.
+                  If you feel that this website is using your property, please contact us right away <a
+                    href="https://github.com/freshtrust/freshtrust.github.io/issues/new">HERE</a>
+                  <hr>
+                  All characters and other entities appearing in this work are fictitious. Any resemblance to real
+                  persons, dead or alive, or other real-life entities, past or present, is purely coincidental.
+                </p>
               </div>
-              <div role="tabpanel" class="tab-pane" id="comments">
-                <ul class="spost_nav" style="color:#666; letter-spacing:0.5px;">
-                  <li>
-                    <div class="media">
-                      <h3> Blond.Sell.9 </h3>
-                      <h4> I think that it is rather funny and awesome! </h4>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="media">
-                      <h3> Heavy_Place_7 </h3>
-                      <h4> 😍😍🥰LOVE This!!! 😘OMG! </h4>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="media">
-                      <h3> Jaded_Combination_8 </h3>
-                      <h4> ok. this is a little bit cringe if you ask me... im not a big fan </h4>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="media">
-                      <h3> 	DefenselessWhite. </h3>
-                      <h4> YOOOO WHAT S UP EVEYR Y ONE HELLOOW! </h4>
-                    </div>
-                  </li>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="footer_widget wow fadeInDown">
+                <h2>Tag</h2>
+                <ul class="tag_nav">
+                  <li><a href="#">Games</a></li>
+                  <li><a href="#">Sports</a></li>
+                  <li><a href="#">Fashion</a></li>
+                  <li><a href="#">Business</a></li>
+                  <li><a href="#">Life &amp; Style</a></li>
+                  <li><a href="#">Technology</a></li>
+                  <li><a href="#">Photo</a></li>
+                  <li><a href="#">Slider</a></li>
                 </ul>
               </div>
             </div>
-          </div>
-          <div class="single_sidebar wow fadeInDown">
-            <h2><span>Sponsor</span></h2>
-            <a class="sideAdd" href="https://screening.mhanational.org/content/what-mental-illness-do-i-have/"><img src="../images/add_square.png" alt=""></a> </div>
-          <div class="single_sidebar wow fadeInDown">
-            <h2><span>Category Archive</span></h2>
-            <select class="catgArchive">
-              <option>Select Category</option>
-              <option>Life styles</option>
-              <option>Sports</option>
-              <option>Technology</option>
-              <option>Treads</option>
-            </select>
-          </div>
-          <div class="single_sidebar wow fadeInDown">
-            <h2><span>Links</span></h2>
-            <ul>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Rss Feed</a></li>
-              <li><a href="#">Login</a></li>
-              <li><a href="#">Life &amp; Style</a></li>
-            </ul>
-          </div>
-        </aside>
-      </div>
-    </div>
-  </section>
-  <footer id="footer">
-    <div class="footer_top">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <div class="footer_widget wow fadeInLeftBig">
-            <h2>DISCLAIMER</h2>
-            <p>
-              This is a parody website. Do not take this as fact.
-              <hr>
-              This website is not copyrighted.
-              If you feel that this website is using your property, please contact us right away <a href="https://github.com/freshtrust/freshtrust.github.io/issues/new">HERE</a>
-              <hr>
-              All characters and other entities appearing in this work are fictitious. Any resemblance to real persons, dead or alive, or other real-life entities, past or present, is purely coincidental.
-            </p>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="footer_widget wow fadeInRightBig">
+                <h2>Contact</h2>
+                <p>Feel free to contact us through email or phone.
+                  ($50 Call fee) ($100 Email fee)</p>
+                <address>
+                  FreshTrust, 235 Leaftown Str. Macorno, Zimbo 3942, Canada
+                  Phone: 1800-POO-POO
+                  <br><br>
+                  <p>
+                    <a href="https://github.com/freshtrust/freshtrust.github.io/issues/new" target="_blank" class="realinquiry">
+                      <span>
+                        Real Inquiries
+                      </span>
+                    </a>
+                  </p>
+                </address>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <div class="footer_widget wow fadeInDown">
-            <h2>Tag</h2>
-            <ul class="tag_nav">
-              <li><a href="#">Games</a></li>
-              <li><a href="#">Sports</a></li>
-              <li><a href="#">Fashion</a></li>
-              <li><a href="#">Business</a></li>
-              <li><a href="#">Life &amp; Style</a></li>
-              <li><a href="#">Technology</a></li>
-              <li><a href="#">Photo</a></li>
-              <li><a href="#">Slider</a></li>
-            </ul>
-          </div>
+        <div class="footer_bottom">
+          <p class="copyright">This is Not Copyrighted!!!</p>
+          <p class="developer">Designed by WpFreeware</p>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <div class="footer_widget wow fadeInRightBig">
-            <h2>Contact</h2>
-            <p>Feel free to contact us through email or phone.
-              ($50 Call fee) ($100 Email fee)</p>
-            <address>
-            FreshTrust, 235 Leaftown Str. Macorno, Zimbo 3942, Canada
-            Phone: 1800-POO-POO 
-            </address>
-          </div>
-        </div>
-      </div>
+      </footer>
     </div>
-    <div class="footer_bottom">
-      <p class="copyright">No Copyright!!!</p>
-      <p class="developer">Designed by WpFreeware</p>
-    </div>
-  </footer>
-</div>
-<script src="../assets/js/jquery.min.js"></script> 
-<script src="../assets/js/wow.min.js"></script> 
-<script src="../assets/js/bootstrap.min.js"></script> 
-<script src="../assets/js/slick.min.js"></script> 
-<script src="../assets/js/jquery.li-scroller.1.0.js"></script> 
-<script src="../assets/js/jquery.newsTicker.min.js"></script> 
-<script src="../assets/js/jquery.fancybox.pack.js"></script> 
-<script src="../assets/js/custom.js"></script>
-</body>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/jquery.li-scroller.1.0.js"></script>
+    <script src="../assets/js/jquery.newsTicker.min.js"></script>
+    <script src="../assets/js/jquery.fancybox.pack.js"></script>
+    <script src="../assets/js/custom.js"></script>
+  </body>
+
 </html>
